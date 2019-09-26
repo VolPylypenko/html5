@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body bgcolor="#c0c0c0">
+    <h1>Fill out the form</h1>
+    <form method="POST" action="https://formspree.io/pylypenkovol@gmail.com">
+        <label for="name">Name</label>
+            <input type="text" placeholder="Name" id="name" name="name">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" placeholder="Email" id="email" name="email">
+        <br>
+        <label>Gender</label>
+        <label>
+            <input type="radio" name="gender" value="male">Male
+        </label>
+        <label>
+            <input type="radio" name="gender" value="female">Female
+        </label>
+        <label>
+            <input type="radio" name="gender" value="other">Other
+        </label>
+        <br>
+        <lebel>Your car</lebel>
+        <select name="cars">
+            <option value="audi">Audi</option>
+            <option value="fiat">Fiat</option>
+            <option value="mersedes">Mersedes</option>
+            <option value="volkswagen">Volkswagen</option>
+            <option value="bmw">BMW</option>
+            <option value="Toyota">Toyota</option>
+            <option value="honda">Honda</option>
+        </select>
+        <br>
+        <label>Message</label>
+        <br>
+        <textarea name="massage" rows="15" cols="40">
+        </textarea>
+        <br>
+        <input type="submit">
+        <br>
+       <a href="index.html"><img src="img/homepage.jpg" width="100" height="50" alt="Home page"></a>
+    </form>
+</body>
+</html>
